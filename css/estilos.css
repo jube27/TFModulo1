@@ -25,6 +25,14 @@ h2{
     color: #0098EF;
 }
 
+h4{
+    weight: 600px;
+    width: 213px;
+    height: 42px;
+    
+    color: #000000;
+}
+
 section{
     border: solid;
     margin-top: 100px;
@@ -125,10 +133,166 @@ button{
  
 
 /*............seccion de Alvaro............*/
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    width: 48%;
+}
+
+.input-field input,
+.input-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-field textarea {
+    width: 100%;
+}
+
+.input-field {
+    width: 48%; 
+}
+
+.form-group.full-width {
+    display: block; 
+}
+
+.form-group.full-width .input-field {
+    width: 100%; 
+}
+.contact-button {
+    width: 144px; 
+    height: 57px; 
+    background-color: #6D0AD3; 
+    color: white;
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    margin: 20px auto; 
+    display: block;
+    font-size: 16px; 
+    text-align: center;
+}
+
+.contact-button:hover {
+    background-color: #5a099e; 
+}
 
 
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    width: 963px;
+    height: 508px;
+    
+}
 
+.blog-part {
+    padding: 20px;
+    box-sizing: border-box;
+}
 
+.blog-content {
+    display: flex;
+}
+
+.text {
+    flex: 1; /* Ocupa todo el espacio disponible */
+}
+
+.image {
+    margin-left: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.blog-content img {
+    max-width: 100%;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-form input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribe-form button {
+    width: 100px;
+    height: 40px;
+    background-color: #6D0AD3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Dar estilo para que el botón sea cuadrado */
+.subscribe-form button {
+    width: 127px;
+    height : 50px;
+}
+
+.first-image {
+    width: 154px;
+    height: 207px;
+    top: 2230px;
+    left: 719px;
+}
+
+.second-image {
+    width: 306px;
+    height: 207px;
+    top: 2230px;
+    left: 719px;
+}
+
+.third-image {
+    width: 308px;
+    height: 107px;
+    top: 2230px;
+    left: 719px;
+}
+
+.blog {
+    width: 963px;
+    height: 508px;
+    overflow: hidden; 
+}
+
+.blog .blog-part {
+    max-width: 100%; 
+    max-height: 100%; 
+    overflow: hidden; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
 
 
 /*............seccion de Saul............*/
