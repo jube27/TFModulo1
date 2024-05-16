@@ -1,5 +1,5 @@
-Trabajo Final Grupal Modulo 1
-Integrantes:
-Alvaro Durand
-Julia Benavides
+# Trabajo Final Grupal - Módulo 1
 
+## Integrantes:
+- **Alvaro Durand**
+- **Julia Benavides**
